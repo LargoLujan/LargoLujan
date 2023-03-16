@@ -6,9 +6,13 @@ from models import Persona
 def agregarPersonasIniciales():
     p1 = Persona("Cristian", 20, "Galvez")
     p2 = Persona("Manuel", 35, "Lujan")
+    p3 = Persona("Tomas", 32, "Lujan")
+    p4 = Persona("Adrian", 29, "Lujan")
+    p5 = Persona("Belen", 33, "Lardies")
+    p6 = Persona("Alvaro", 31, "Martinez")
 
     # db.session.add(p1)  # añadir uno a uno
-    db.session.add_all([p1, p2])
+    db.session.add_all([p1, p2, p3,p4, p5, p6])
     db.session.commit()  # commit para guardar el cambio
     db.session.close()  # siempre se termina cerrándola
     # print(p1)
@@ -20,6 +24,25 @@ def consultasDePrueba():
     print(result)
     print(type(result))
     print(result.edad)
+
+    print("\n #2. Obtener todos los objetos de una tabla.")
+    result = db.session.query(Persona).all()
+    print(result)
+    for p in result:
+        print("\tNombre: {}\n\tApellido: {}\n\tEdad: {}\n".format(p.nombre, p.apellido, p.edad))
+
+    print("\n #3 Obtener el primer objeto de una consulta (el más antiguo")
+    result = db.session.query(Persona).first() # First devuelve el registro más antiguo
+    print(result)
+
+    print("\n #4 Contar el número de elementos devueltos por una consulta")
+    result = db.session.query(Persona).count() # Número de registros en una tabla
+    print(result)
+
+    print("\n #5 Ordenar el resultado de una consulta")
+    result = db.session.query(Persona).order_by("nombre").all()
+    for p in result:
+        print("\tNombre: {}\n\tApellido: {}\n\tEdad: {}\n".format(p.nombre, p.apellido, p.edad))
 
 
 if __name__ == '__main__':

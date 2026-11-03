@@ -32,10 +32,11 @@ Today I design and run lakehouse and warehouse solutions on **Microsoft Fabric**
 
 ### Featured repositories
 
-<!-- PENDIENTE: añadir aquí los repositorios de ingeniería de datos que se hagan públicos tras la auditoría. -->
-
 | Repository | What it is |
 |---|---|
+| [lineageiq](https://github.com/LargoLujan/lineageiq) | Read-only lineage, catalog and governance mapper for Microsoft Fabric: table- and column-level lineage from notebooks, pipelines and semantic models, a 2D/3D graph, a REST API and MCP servers. Python, PowerShell, JavaScript. |
+| [agent-studio](https://github.com/LargoLujan/agent-studio) | Desktop IDE (C#, .NET 10, WPF) that orchestrates AI coding agents (Claude Code, Codex) with planning, debate and an independent judge. |
+| [TeamsJarvis](https://github.com/LargoLujan/TeamsJarvis) | Frida.ai: AI reply assistant for Microsoft Teams (.NET 10, WPF, WebView2) that reads chats and context and suggests grounded replies. |
 | [BudgetLens](https://github.com/LargoLujan/BudgetLens) | Personal finance analysis with AI recommendations on income and expenses (Python, OpenAI). |
 | [Amazon_Review_Polarity_Classifier](https://github.com/LargoLujan/Amazon_Review_Polarity_Classifier) | Sentiment classification of product reviews with NLP. |
 | [fashion_image_search_engine](https://github.com/LargoLujan/fashion_image_search_engine) | Image similarity search for fashion items with a VGG16 CNN and cosine distance. |

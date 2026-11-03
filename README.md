@@ -1,5 +1,5 @@
 <h1 align="center">Manuel Luján Vílchez</h1>
-<p align="center"><b>Senior Data Engineer</b> · Microsoft Fabric · Azure · Databricks · PySpark · SQL · Power BI<br>Remote · Spain</p>
+<p align="center"><b>Senior Data Engineer</b> · Microsoft Fabric · Azure · Data Factory · Databricks · PySpark · Python · SQL · Power BI<br>Remote · Spain</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/manuel-lujan-vilchez"><img src="https://img.shields.io/badge/LinkedIn-Manuel%20Luj%C3%A1n%20V%C3%ADlchez-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -20,6 +20,7 @@ Today I design and run lakehouse and warehouse solutions on **Microsoft Fabric**
 
 ![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-117865?style=flat-square&logo=microsoft&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Data Factory](https://img.shields.io/badge/Data%20Factory-0078D4?style=flat-square&logo=azuredataexplorer&logoColor=white)
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL%20%2F%20T--SQL-4479A1?style=flat-square&logo=microsoftsqlserver&logoColor=white)

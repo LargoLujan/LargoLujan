@@ -13,7 +13,7 @@ Today I design and run lakehouse and warehouse solutions on **Microsoft Fabric**
 - **Lakehouse and warehouse engineering:** PySpark and Spark SQL on Delta Lake, medallion architecture, dimensional models for Power BI.
 - **Performance:** parallel table loading with dependency plans, shared Spark sessions and caching of repeated reads.
 - **CI/CD for Fabric:** Azure DevOps and Git across Dev and Prod, with the Fabric REST API and Fabric CLI.
-- **Data quality and governance:** schema contracts with alerts, source-to-lakehouse reconciliation and column-level lineage.
+- **Data quality and governance:** schema contracts with alerts, source-to-lakehouse reconciliation and object-level lineage.
 - **AI for data engineering:** agents, skills and MCP servers that document, review and scaffold notebooks and pipelines.
 
 ### Stack

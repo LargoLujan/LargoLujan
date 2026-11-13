@@ -56,6 +56,6 @@ Today I design and run lakehouse and warehouse solutions on **Microsoft Fabric**
 
 - Python Programming and Machine Learning, Tokio School (2022–2023). Computer Engineering coursework, UNED.
 - IBM Data Science courses on Coursera, including the Applied Data Science Capstone. Google IT Automation with Python.
-- Spanish (native) · English (professional working)
+- Spanish (native) · English (limited working proficiency)
 
 <p align="center"><i>From raw data to the decision.</i></p>
